@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-end">
+        <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light justify-content-end">
             <a class="navbar-brand mr-5" href="#">FindThePrecious.com</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,10 +39,10 @@
             <div id="carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/img1.jpg" alt="First slide">
+                        <img class="d-block w-100" src="img/dark.jpg" alt="First slide">
                         <div class="captions d-none d-sm-flex">
-                            <h3>Dangerous fellowshop try to destroy the ring</h3>
-                            <p>Orcs, Goblins, Balrogs, protect your master Sauron!</p>
+                            <h3>Sauron is a very goo bro</h3>
+                            <p>please help him to find his ring! -D.V</p>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -79,83 +79,87 @@
             </div>
             <div class="portraits container-fluid ">
                 <div class="row">
-                    <div class="portrait card col-sm-4 my-3">
-                        <img class="card-img-top" src="img/wanted.png" alt="Card image cap">
+                    <div id="face"class="portrait card col-sm-4 my-3">
+                        <img class="card-img-top" src="img/gandalf.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="reward-info">Reward <span>1000</span> gold coins</p>
                             <div class="portrait-info">
                                 <h3 class="card-title">The Wizard</h3>
-                                <p class="card-text">lorem ipsum lorem ipsum...</p>
+                                <p class="card-text">a very dangerous wizard, Balrog killer</p>
                             </div>
                         </div>
                     </div>
-                    <div class="portrait card col-sm-4 my-3 dead">
-                        <img class="card-img-top" src="img/wanted.png" alt="Card image cap">
+                    <div id="faceg"class="portrait card col-sm-4 my-3 dead">
+                        <img class="card-img-top" src="img/gimli.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="reward-info">Reward <span>1000</span> gold coins</p>
                             <div class="portrait-info">
-                                <h3 class="card-title">Hobbit #3</h3>
-                                <p class="card-text">lorem ipsum lorem ipsum...</p>
+                                <h3 id="gimli"class="card-title">Gimli</h3>
+                                <p class="card-text">a dwarf, with a breard and an axe</p>
                             </div>
                         </div>
                     </div>
-                    <div class="portrait card col-sm-4 my-3">
-                        <img class="card-img-top" src="img/wanted.png" alt="Card image cap">
+                    <div id="facea"class="portrait card col-sm-4 my-3">
+                        <img class="card-img-top" src="img/aragorn.png" alt="Card image cap">
                         <div class="card-body">
-                            <p class="reward-info">Reward <span>1000</span> gold coins</p>
+                            <p class="reward-info">Reward <span>800</span> gold coins</p>
                             <div class="portrait-info">
-                                <h3 class="card-title">Yummy Dwarf</h3>
-                                <p class="card-text">lorem ipsum lorem ipsum...</p>
+                                <h3 class="card-title">Aragorn</h3>
+                                <p class="card-text">Sauron's finger says him his sword is dangerous</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="info reward container-fluid p-md-5">
-            <div class="row flex-row-reverse no-gutters pt-5 border-top">
+
+        <section id="captured" class="info reward container-fluid p-md-5">
+            <div class="row flex-row-reverse no-gutters pt-5">
                 <div class="col-md-auto pl-md-2">
-                    <img class="img-fluid" src="img/reward.png" alt="">
+                    <img class="img-fluid" src="img/coin_sauron.png" alt="monnaie">
                 </div>
                 <div class="desc col-md pb-5 pb-md-0">
                     <h2>I have captured one of them, how to get my reward ?</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet convallis diam, id commodo diam accumsan tempor. Cras viverra nisl eu ante scelerisque porttitor. Donec dolor diam, iaculis sed eros dignissim, accumsan sagittis ex. Nunc suscipit, eros vel dignissim fermentum, enim ante pretium erat, ut varius eros dui non quam. Proin blandit ipsum sit amet dictum malesuada. Praesent nec dictum libero. Sed ut semper turpis, eu placerat nisl. Sed pretium nisi eget hendrerit iaculis. Sed vitae eros est. Aliquam lectus nisi, commodo sit amet elit nec, dictum imperdiet nunc. Sed sollicitudin porta massa, vel congue tortor gravida hendrerit.</p>
-                    <button class="btn btn-lg">Contact us</button>
+                    <button id="contact" class="btn btn-lg">Contact us</button>
                 </div>
             </div>
         </section>
+
+
         <section class="hunters m-2 m-md-5">
-            <h2 class="pt-5 border-top">Best Hunters</h2>
+            <h2 class="pt-5 ">Our best Hunters</h2>
             <div class="container-fluid p-0 my-5">
                 <div class="row no-gutters">
-                    <div class="col-sm-6  my-3 hunter-item media">
-                        <img class="mr-3" src="img/hunter.png" alt="">
+                    <div class="col-sm-3  my-3 hunter-item media">
+                        <img class="mr-3" src="img/hunter1.png" alt="hunter1">
                         <div class="media-body">
                             <h3 class="mt-0">ElvesKiller22</h3>
                             <p>2 capture - <a href="#">Profile</a></p>
-                            <button class="like-btn btn bg-secondary text-white btn-sm">Like <span>68K</span></button>
+                            <button><img src="img/logo.png" alt="hunter1">12 race</button>
                         </div>
                     </div>
-                    <div class="col-sm-6 my-3 hunter-item media">
-                        <img class="mr-3" src="img/hunter.png" alt="">
+                    <div class="col-sm-3 my-3 hunter-item media">
+                        <img class="mr-3" src="img/hunter2.png" alt="hunter2">
                         <div class="media-body">
                             <h3 class="mt-0">Goblin45</h3>
                             <p>1 capture - <a href="#">Profile</a></p>
-                            <button class="like-btn btn bg-secondary text-white btn-sm">Like <span>68K</span></button>
+                            <button><img src="img/logo.png" alt="hunter1">18 race</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="ring m-2 m-md-5">
+
+        <section class="ring pb-5 ">
             <h2 class="pt-5 border-top">About the ring</h2>
 
-            <div class="card mb-5">
-                <h3 class="bg-light p-3">Ring Capabilities</h3>
+            <div class="card mb-5 mx-5">
+                <h3 class="p-3">Ring Capabilities</h3>
                 <div class="card-body">
                     <p>What can ou master Sauron do with the ring ?</p>
-                    <table class="table table-striped table-bordered">
-                        <thead class="bg-secondary text-white text-center">
+                    <table class="table ">
+                        <thead class="text-black text-center">
                             <tr>
                                 <th>Feature</th>
                                 <th>Description</th>
@@ -179,26 +183,28 @@
                 </div>
             </div>
 
-            <div class="card mb-5">
-                <h3 class="bg-light p-3">Why the ring is awesome ?</h3>
+            <div class="card mb-5 mx-5">
+                <h3 class="p-3">Why the ring is awesome ?</h3>
                 <div class="card-body container">
                     <div class="row">
                         <blockquote class="blockquote mb-0 col-md d-flex flex-column justify-content-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            <p>My Preciooooooouuuuussss! Err errr! We want our Preciooooooouuuuusss.</p>
                             <footer class="blockquote-footer">Gollum</footer>
                         </blockquote>
                         <div class="col-md-auto">
-                            <img src="img/gollum.png" alt="">
+                            <img src="img/gollum.png" alt="gollum">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <section class="info army container-fluid p-md-5">
-            <div class="row no-gutters pt-5 border-top">
-                <div class="col-md-auto pr-md-2">
-                    <img class="img-fluid" src="img/hunter.png" alt="">
-                </div>
+                
+                <div class="row no-gutters pt-5 border-top">
+                <div class="col-md-auto pr-md-5">
+                <img src="img/need.png" alt="army">
+                </div> 
                 <div class="desc col-md">
                     <h2>Join Mordor Army, we need you !</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet convallis diam, id commodo diam accumsan tempor. Cras viverra nisl eu ante scelerisque porttitor. Donec dolor diam, iaculis sed eros dignissim, accumsan sagittis ex. Nunc suscipit, eros vel dignissim fermentum, enim ante pretium erat, ut varius eros dui non quam. Proin blandit ipsum sit amet dictum malesuada. Praesent nec dictum libero. Sed ut semper turpis, eu placerat nisl. Sed pretium nisi eget hendrerit iaculis. Sed vitae eros est. Aliquam lectus nisi, commodo sit amet elit nec, dictum imperdiet nunc. Sed sollicitudin porta massa, vel congue tortor gravida hendrerit.</p>
@@ -206,9 +212,11 @@
                 </div>
             </div>
         </section>
-        <section class="contact m-2 m-md-5">
-            <h2 class="pt-5 border-top">Contact us</h2>
-            <form class="container">
+
+        <section id="form" class="contact m-2 m-md-5">
+            <h2 class="pt-5 pl-5 border-top">Contact us</h2>
+            <div class="formulaire row">
+            <form class="col-md-6 pl-5">
                 <div class="form-group">
                     <input type="email" class="form-control" id="email" placeholder="📧">
                 </div>
@@ -223,12 +231,16 @@
                 </select>
                 </div>
                 <textarea rows="5" class="d-block" placeholder="Your message"></textarea>
-                <button type="submit" class="btn my-3">Submit</button>
+                <button id="submit" type="submit" class="btn my-3">Submit</button>
             </form>
-
+            <div class="col-md-6 mordor-map">
+             <img src="img/map.png" alt="map">
+            </div>
+            </div>
         </section>
+
     </main>
-    <footer class="container-fluid p-5 bg-dark">
+    <footer id="footer"class="container-fluid p-5 bg-dark">
         <div class="row">
             <ul class="nav flex-column col-md-4">
                 <li class="nav-item">
