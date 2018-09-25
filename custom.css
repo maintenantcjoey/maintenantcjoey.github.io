@@ -27,13 +27,17 @@
 h1, h2, h3, nav
 {
     font-family: 'aniron', serif;
+    font-size: 90%;
+
 }
 
 body
 {
-    font-family: 'party';
+    font-family: 'party', serif;
     font-size: 120%;
+    font-weight: bold;
 }
+
 
 html {
     font-size: 14px;  
@@ -55,7 +59,14 @@ section h2 {
 background-color: orange !important;
 }
 
-
+#liste a
+{
+    color: black;
+}
+#liste a:hover
+{
+    color: orange;
+}
 /*** Slider ***/
 
 .captions {
@@ -72,6 +83,7 @@ background-color: orange !important;
 }
 
 /**** Fellows ***/
+
 
 #face, #faceg, #facea
 {
@@ -178,15 +190,11 @@ section.fellows h2 span {
     font-weight: bold;
     font-size:3rem;
 }
-.portrait.dead::after{
 
-   
-}
 
 .portrait.dead .reward-info{
     display:none;
 }
-
 
 /*** Reward & Army ***/
 
@@ -205,7 +213,6 @@ section.info .desc > p {
 section.info .desc {
     position: relative;
 }
-
 
 section.reward .desc > p {}
 
@@ -239,7 +246,9 @@ section.army .desc button {
 }
 
 .hunter-item h3 {
-    font-size: 1.4em;
+    font-family: 'party', serif;
+    font-size: 2em;
+    color: orange;
 
 }
 
@@ -289,16 +298,6 @@ section.ring
 section.contact textarea {
     width: 100%;
 }
-
-
-/*
-.formulaire
-{
-    display: flex;
-    flex-wrap: wrap;
-    padding-right: 10%;
-    padding-bottom: 5%;
-}*/
 
 #form
 {
